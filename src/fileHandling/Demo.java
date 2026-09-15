@@ -12,7 +12,7 @@ public class Demo {
 
         byte[] b = s.getBytes();
 
-        fo.write(65);
+        fo.write(b);
         fo.flush();
         fo.close();
 
